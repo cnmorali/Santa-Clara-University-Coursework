@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+                <pref name="xtLVSICVOptions" value="-sf SPICE "/>
+                <pref name="xtLVSLayCell" value="XNOR_Logic"/>
+                <pref name="xtLVSLayInputNetlist" value="/DCNFS/users/student/cmorali/elen153/synopsys_custom/pvjob_Lab4.XNOR_Logic.icv.lvs/XNOR_Logic.net"/>
+                <pref name="xtLVSLayLCV" value="Lab4/XNOR_Logic/layout"/>
+                <pref name="xtLVSLayOasisFile" value="/DCNFS/users/student/cmorali/elen153/synopsys_custom/pvjob_Lab4.XNOR_Logic.icv.lvs/XNOR_Logic.custom_compiler.oas"/>
+                <pref name="xtLVSLayStreamFile" value="/DCNFS/users/student/cmorali/elen153/synopsys_custom/pvjob_Lab4.XNOR_Logic.icv.lvs/XNOR_Logic.custom_compiler.gds"/>
+                <pref name="xtLVSSchCell" value="XNOR_Logic"/>
+                <pref name="xtLVSSchInputNetlist" value="/DCNFS/users/student/cmorali/elen153/synopsys_custom/pvjob_Lab4.XNOR_Logic.icv.lvs/XNOR_Logic.custom_compiler.sp"/>
+                <pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+                <pref name="xtLVSSchLCV" value="Lab4/XNOR_Logic/schematic"/>
+                <pref name="xtLVSSchOutputNetlist" value="/DCNFS/users/student/cmorali/elen153/synopsys_custom/pvjob_Lab4.XNOR_Logic.icv.lvs/XNOR_Logic.custom_compiler.sp"/>
+                <pref name="xtLVSTool" value="IC Validator"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,51 @@
+<module name="vsl: Lab4 XNOR_Logic schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping dst="MM8" src="M8"/>
+<mapping dst="MM11" src="M11"/>
+<mapping dst="MM10" src="M10"/>
+<mapping dst="MM7" src="M7"/>
+<mapping dst="MM6" src="M6"/>
+<mapping dst="MM5" src="M5"/>
+<mapping dst="MM9" src="M9"/>
+<mapping dst="MM4" src="M4"/>
+</forward>
+<reverse>
+<mapping dst="M9" src="MM9"/>
+<mapping dst="M10" src="MM10"/>
+<mapping dst="M7" src="MM7"/>
+<mapping dst="M8" src="MM8"/>
+<mapping dst="M6" src="MM6"/>
+<mapping dst="M11" src="MM11"/>
+<mapping dst="M5" src="MM5"/>
+<mapping dst="M4" src="MM4"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping dst="a abar b bbar out" src="&lt;unmappedTermOrder>"/>
+<mapping dst="a abar b bbar out" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="a abar b bbar out"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M4"/>
+<instance name="M5"/>
+<instance name="M6"/>
+<instance name="M7"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M10"/>
+<instance name="M11"/>
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+</master_instances>
+</module>

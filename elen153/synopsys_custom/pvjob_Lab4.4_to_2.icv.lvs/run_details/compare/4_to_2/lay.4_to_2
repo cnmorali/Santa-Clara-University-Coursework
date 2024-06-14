@@ -1,0 +1,31 @@
+{NETLIST 4_to_2
+{VERSION 2 0 0}
+
+{CELL 4_to_2
+    {PORT b vdd! gnd! out a }
+    {INST M8=p12 {TYPE MOS} {COORD x=270905.660 y=162916.910 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N12=DRN a=GATE out=SRC vdd!=BULK }}
+    {INST M10=p12 {TYPE MOS} {COORD x=270907.060 y=162916.910 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N12=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST M9=p12 {TYPE MOS} {COORD x=270906.360 y=162916.910 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N12=DRN N6=GATE out=SRC vdd!=BULK }}
+    {INST M7=p12 {TYPE MOS} {COORD x=270904.960 y=162916.910 }{PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN N12=DRN N8=GATE vdd!=SRC vdd!=BULK }}
+    {INST M4=n12 {TYPE MOS} {COORD x=270907.060 y=162914.590 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N9=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST M3=n12 {TYPE MOS} {COORD x=270906.360 y=162914.590 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N11=DRN N6=GATE gnd!=SRC gnd!=BULK }}
+    {INST M2=n12 {TYPE MOS} {COORD x=270905.660 y=162914.590 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN N11=DRN a=GATE out=SRC gnd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=270904.960 y=162914.590 }{PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN out=DRN N8=GATE N9=SRC gnd!=BULK }}
+    {INST M5=n12 {TYPE MOS} {COORD x=270909.615 y=162916.280 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N6=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST M11=p12 {TYPE MOS} {COORD x=270909.615 y=162917.800 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N6=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST M6=n12 {TYPE MOS} {COORD x=270902.300 y=162916.280 }{PROP n="n12" Length=0.1 Width=0.4 }
+	{PIN N8=DRN a=GATE gnd!=SRC gnd!=BULK }}
+    {INST M12=p12 {TYPE MOS} {COORD x=270902.300 y=162917.800 }{PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN N8=DRN a=GATE vdd!=SRC vdd!=BULK }}
+}
+}

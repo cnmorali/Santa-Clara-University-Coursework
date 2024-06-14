@@ -1,0 +1,75 @@
+[14:13:32.36] /r giWindowId 0
+[14:13:32.36] /r giWindowGeometry 600x300
+[14:13:32.37] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Apr 24 14:13:30 2023
+              /c Host: linux400513
+              /c Working directory: /DCNFS/users/student/cmorali/elen153
+              /c 
+[14:13:35.27] /r giShowFrameTabs true
+[14:13:35.27] /r giWindowId 1
+[14:13:35.27] /r giWindowGeometry 1040x800
+[14:13:40.47] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:13:40.48] /# 
+[14:13:40.78] /i dm::showLibraryManager
+[14:13:40.78] /r giWindowId 2
+[14:13:40.78] /r giWindowGeometry 660x600+50+76
+[14:13:40.80] /o oa:0x212fd5d0
+[14:15:52.02] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:15:52.04] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:15:53.64] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[14:15:53.67] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[14:16:00.95] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:16:00.96] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:16:02.73] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:16:02.77] /o 	############################################
+[14:16:02.77] /o 	        Synopsys Generic 90nm iPDK          
+[14:16:02.77] /o 	--------------------------------------------
+[14:16:02.77] /o 	Release Date .............. : 11-May-2016    
+[14:16:02.77] /o 	============================================
+[14:16:02.77] /o 	        Recommended Tool Versions           
+[14:16:02.77] /o 	--------------------------------------------
+[14:16:02.77] /o 	Custom Designer ........... : J-2014.12-2    
+[14:16:02.77] /o 	IC Validator .............. : K-2015.12   
+[14:16:02.77] /o 	StarRC..................... : K-2015.12  
+[14:16:02.77] /o 	--------------------------------------------
+[14:16:02.77] /o 	############################################
+[14:16:02.77] /o 
+[14:16:02.80] /o SAED PDK 90: Loaded callbacks
+[14:16:02.81] /o SAED PDK 90: Loaded display resources
+[14:16:02.85] /m Information: License 'MTM' checked out. (LICENSE-003)
+[14:16:02.95] /r giWindowId 3
+[14:16:02.95] /r giWindowGeometry 1632x926
+[14:16:05.19] /i gi::setActiveWindow 2
+[14:16:05.19] /i gi::setActiveWindow 2 -raise true
+[14:16:06.16] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[14:16:06.18] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[14:16:06.31] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:16:06.36] /r giWindowId 4
+[14:16:06.37] /r giWindowGeometry 1632x926
+[14:16:07.69] /i gi::setActiveWindow 2
+[14:16:07.69] /i gi::setActiveWindow 2 -raise true
+[14:16:20.04] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+801+81
+[14:16:24.43] /i db::setAttr geometry -of [gi::getFrames 1] -value 931x844+801+81
+[14:16:26.56] /i db::setAttr geometry -of [gi::getFrames 1] -value 931x844+917+54
+[14:45:18.05] /o Information: Received "Terminate" signal. Sending  PID: 1 Username: "root" Process name: "/usr/lib/systemd/systemd". Process is terminated.
+              /c signal number = 15
+[14:45:18.08] /e Error: The application was unexpectedly terminated.
+[[1414::4545:18:.1808.] /o 08]See the session log file for recovery details. /o [14 (SHUT_DOWN-001)
+:45Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001):18.10] /o Error: X connection has issue. Error code: 1 (APPLICATION_GUI-001)
+              /c 
+[14:45:18.11] /e Error: The application was unexpectedly terminated.
+[14[:1445::4518:.18.1212]] /e Error:  /e Error: The application was unexpectedly terminated.
+See the session log file for recovery details. (SHUT_DOWN-001)
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

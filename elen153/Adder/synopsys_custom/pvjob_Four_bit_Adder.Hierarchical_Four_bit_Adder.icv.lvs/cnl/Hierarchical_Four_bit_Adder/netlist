@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : Four_bit_Adder
+* Cell             : Hierarchical_Four_bit_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt Hierarchical_Four_bit_Adder a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3
+*.PININFO a0:I a1:I a2:I a3:I b0:I b1:I b2:I b3:I cin:I cout:O s0:O s1:O s2:O
+*.PININFO s3:O
+XI4 a0 b0 cin net70 s0 Full_Adder
+XI8 a1 b1 net70 net75 s1 Full_Adder
+XI9 a2 b2 net75 net80 s2 Full_Adder
+XI10 a3 b3 net80 cout s3 Full_Adder
+.ends Hierarchical_Four_bit_Adder
+

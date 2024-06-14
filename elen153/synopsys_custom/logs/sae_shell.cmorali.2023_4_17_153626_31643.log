@@ -1,0 +1,66 @@
+[15:36:30.81] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 17 15:36:26 2023
+              /c Host: linux400512
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:36:30.87] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:36:30.87] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:36:30.87] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:36:30.87] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:36:30.99] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:36:30.99] /o 	############################################
+[15:36:30.99] /o 	        Synopsys Generic 90nm iPDK          
+[15:36:30.99] /o 	--------------------------------------------
+[15:36:30.99] /o 	Release Date .............. : 11-May-2016    
+[15:36:30.99] /o 	============================================
+[15:36:30.99] /o 	        Recommended Tool Versions           
+[15:36:30.99] /o 	--------------------------------------------
+[15:36:30.99] /o 	Custom Designer ........... : J-2014.12-2    
+[15:36:30.99] /o 	IC Validator .............. : K-2015.12   
+[15:36:30.99] /o 	StarRC..................... : K-2015.12  
+[15:36:30.99] /o 	--------------------------------------------
+[15:36:30.99] /o 	############################################
+[15:36:30.99] /o 
+[15:36:31.01] /o SAED PDK 90: Loaded callbacks
+[15:36:31.01] /o SAED PDK 90: Loaded display resources
+[15:36:31.02] /i ::sa::_backgroundSaeShell::signalProcessReady 1681770986
+[15:36:31.02] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[15:41:32.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:41:33.28] /i ::sa::_backgroundSaeShell::parentRunning
+[15:41:33.28] /o 1681771293
+[15:43:08.46] /i ::wf::viewerExited
+[15:46:33.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:46:33.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:46:33.26] /o 1681771593
+[15:48:01.37] /i ::wf::viewerExited
+[15:51:34.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:51:34.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:51:34.26] /o 1681771894
+[15:56:35.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:56:35.16] /i ::sa::_backgroundSaeShell::parentRunning
+[15:56:35.16] /o 1681772195
+[16:01:36.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:01:36.26] /i ::sa::_backgroundSaeShell::parentRunning
+[16:01:36.26] /o 1681772496
+[16:01:55.66] /i ::wf::viewerExited
+[16:06:37.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:06:37.26] /i ::sa::_backgroundSaeShell::parentRunning
+[16:06:37.26] /o 1681772797
+[16:11:38.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:11:38.26] /i ::sa::_backgroundSaeShell::parentRunning
+[16:11:38.26] /o 1681773098
+[16:16:39.16] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:16:39.26] /i ::sa::_backgroundSaeShell::parentRunning
+[16:16:39.26] /o 1681773399
+[16:21:40.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:21:40.36] /i ::sa::_backgroundSaeShell::parentRunning
+[16:21:40.36] /o 1681773700
+[16:26:41.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:26:41.36] /i ::sa::_backgroundSaeShell::parentRunning
+[16:26:41.36] /o 1681774001
+[16:27:12.26] /i ::sa::_backgroundSaeShell::exit
+[16:27:12.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

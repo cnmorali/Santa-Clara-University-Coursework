@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Apr 10 16:32:49 2023-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" type="giString" value=""/>
+ <attribute name="design" type="dmCellView" value="Lab1/RC_Network/schematic"/>
+ <attribute name="enabled" type="giBoolean" value="1"/>
+ <attribute name="name" type="giString" value="HSPICE_default"/>
+ <attribute name="openaccessState" type="dmCellView" value="//"/>
+ <attribute name="simulator" type="giString" value="HSPICE"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <integration version="1"/>
+</file-format>

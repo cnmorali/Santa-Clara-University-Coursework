@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+                <pref name="xtLVSICVOptions" value="-sf SPICE"/>
+                <pref name="xtLVSLayCell" value="Full_Adder"/>
+                <pref name="xtLVSLayInputNetlist" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Full_Adder.icv.lvs/Full_Adder.net"/>
+                <pref name="xtLVSLayLCV" value="Four_bit_Adder/Full_Adder/layout"/>
+                <pref name="xtLVSLayOasisFile" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Full_Adder.icv.lvs/Full_Adder.custom_compiler.oas"/>
+                <pref name="xtLVSLayStreamFile" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Full_Adder.icv.lvs/Full_Adder.custom_compiler.gds"/>
+                <pref name="xtLVSSchCell" value="Full_Adder"/>
+                <pref name="xtLVSSchInputNetlist" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Full_Adder.icv.lvs/Full_Adder.custom_compiler.sp"/>
+                <pref name="xtLVSSchInputNetlistFormat" value="CDL"/>
+                <pref name="xtLVSSchLCV" value="Four_bit_Adder/Full_Adder/schematic"/>
+                <pref name="xtLVSSchOutputNetlist" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Full_Adder.icv.lvs/Full_Adder.custom_compiler.sp"/>
+                <pref name="xtLVSTool" value="IC Validator"/>
+        </preferences>
+</file-format>

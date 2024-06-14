@@ -1,0 +1,91 @@
+[14:38:27.42] /r giWindowId 0
+[14:38:27.42] /r giWindowGeometry 600x300
+[14:38:27.42] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Apr 17 14:38:26 2023
+              /c Host: linux400512
+              /c Working directory: /DCNFS/users/student/cmorali/elen153
+              /c 
+[14:38:29.77] /r giShowFrameTabs true
+[14:38:29.77] /r giWindowId 1
+[14:38:29.77] /r giWindowGeometry 1040x800
+[14:38:31.38] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:38:31.39] /# 
+[14:38:31.53] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:38:31.53] /# 
+[14:38:31.69] /i dm::showLibraryManager
+[14:38:31.69] /r giWindowId 2
+[14:38:31.70] /r giWindowGeometry 660x600+50+76
+[14:38:31.72] /o oa:0x1d621b90
+[14:38:31.84] /i dm::showLibraryManager
+[14:38:31.84] /o oa:0x21c49a20
+[14:38:32.98] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:38:33.00] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:38:34.26] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[14:38:34.28] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[14:38:35.33] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:38:35.34] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:38:35.47] /i gi::executeAction {dmOpen} -in [gi::getWindows 2]
+[14:38:35.50] /o 	############################################
+[14:38:35.50] /o 	        Synopsys Generic 90nm iPDK          
+[14:38:35.50] /o 	--------------------------------------------
+[14:38:35.50] /o 	Release Date .............. : 11-May-2016    
+[14:38:35.50] /o 	============================================
+[14:38:35.50] /o 	        Recommended Tool Versions           
+[14:38:35.50] /o 	--------------------------------------------
+[14:38:35.50] /o 	Custom Designer ........... : J-2014.12-2    
+[14:38:35.50] /o 	IC Validator .............. : K-2015.12   
+[14:38:35.50] /o 	StarRC..................... : K-2015.12  
+[14:38:35.50] /o 	--------------------------------------------
+[14:38:35.50] /o 	############################################
+[14:38:35.50] /o 
+[14:38:35.52] /o SAED PDK 90: Loaded callbacks
+[14:38:35.54] /o SAED PDK 90: Loaded display resources
+[14:38:35.55] /m Information: License 'MTM' checked out. (LICENSE-003)
+[14:38:35.56] /m Information: License 'MTM' checked in. (LICENSE-004)
+[14:38:35.57] /r giDialog gi::setActiveDialog [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[14:38:35.85] /r giDialog db::setAttr geometry -of [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]] -value 408x82+745+435
+[14:38:38.02] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deOpenFailed} -parent [gi::getWindows 2]]
+[14:38:39.88] /i gi::executeAction {dmDeleteCellView} -in [gi::getWindows 2]
+[14:38:39.89] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[14:38:40.17] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x92+773+454
+[14:38:41.10] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[14:38:41.11] /w Warning: The following error occurred during destruction of 'cellView':
+              /c 'Cannot unlock file(s):
+              /c Lab2/inverter/schematic/schematic'. (DATA_MANAGEMENT-115)
+[14:38:50.62] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:38:55.65] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+837+65
+[14:38:58.16] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[14:38:58.17] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:38:58.18] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:39:00.16] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+520+65
+[14:39:20.75] /i exit
+[14:39:20.76] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:39:21.05] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+821+322
+[14:39:24.41] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:39:25.13] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:39:31.12] /i gi::executeAction {dmDeleteCellView} -in [gi::getWindows 2]
+[14:39:31.13] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[14:39:31.44] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x92+773+454
+[14:39:31.87] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[14:39:31.88] /w Warning: The following error occurred during destruction of 'cellView':
+              /c 'Cannot unlock file(s):
+              /c Lab2/inverter/schematic/schematic'. (DATA_MANAGEMENT-115)
+[14:39:32.83] /i exit
+[14:39:32.84] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:39:33.15] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+821+322
+[14:39:33.89] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:39:34.33] /o Shutdown time: Mon Apr 17 14:39:34 2023
+[14:39:34.33] /o Elapsed session real time: 1.11 minutes
+[14:39:34.33] /o Session terminated. Log is at /DCNFS/users/student/cmorali/elen153/synopsys_custom/logs/ccompiler.cmorali.2023_4_17_143826_22525.log

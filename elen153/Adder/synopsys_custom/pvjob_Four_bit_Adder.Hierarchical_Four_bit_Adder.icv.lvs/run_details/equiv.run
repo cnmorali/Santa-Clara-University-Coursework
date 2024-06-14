@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"Hierarchical_Four_bit_Adder", "Hierarchical_Four_bit_Adder"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,32 @@
+{netlist XNOR_Logic.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell XNOR_Logic
+{port a abar b bbar out}
+{inst MM4=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin out=DRN abar=GATE net13=SRC gnd!=BULK}}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net13=DRN b=GATE gnd!=SRC gnd!=BULK}}
+{inst MM6=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin out=DRN a=GATE net20=SRC gnd!=BULK}}
+{inst MM7=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net20=DRN bbar=GATE gnd!=SRC gnd!=BULK}}
+{inst MM11=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net39=DRN b=GATE vdd!=SRC vdd!=BULK}}
+{inst MM10=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net39=DRN abar=GATE vdd!=SRC vdd!=BULK}}
+{inst MM9=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin out=DRN bbar=GATE net39=SRC vdd!=BULK}}
+{inst MM8=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin out=DRN a=GATE net39=SRC vdd!=BULK}}
+}
+
+}

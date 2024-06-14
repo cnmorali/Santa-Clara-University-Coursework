@@ -1,0 +1,10 @@
+Name	Group Size
+----------------------------
+chloe	2
+emma	4
+ron	6
+claire	5
+manan	7
+ella	9
+bella	8
+emily	10

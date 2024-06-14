@@ -1,0 +1,31 @@
+{NETLIST 4_to_2
+{VERSION 2 0 0}
+
+{CELL 4_to_2
+    {PORT b vdd! gnd! out a }
+    {INST XI0/MM8=p12 {TYPE MOS} {PROP n="XNOR_Logic/p12" Length=0.1 Width=2.4 }
+	{PIN out=DRN a=GATE XI0/net39=SRC vdd!=BULK }}
+    {INST XI0/MM11=p12 {TYPE MOS} {PROP n="XNOR_Logic/p12" Length=0.1 Width=2.4 }
+	{PIN XI0/net39=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM9=p12 {TYPE MOS} {PROP n="XNOR_Logic/p12" Length=0.1 Width=2.4 }
+	{PIN out=DRN net22=GATE XI0/net39=SRC vdd!=BULK }}
+    {INST XI0/MM10=p12 {TYPE MOS} {PROP n="XNOR_Logic/p12" Length=0.1 Width=2.4 }
+	{PIN XI0/net39=DRN net18=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM5=n12 {TYPE MOS} {PROP n="XNOR_Logic/n12" Length=0.1 Width=0.8 }
+	{PIN XI0/net13=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM7=n12 {TYPE MOS} {PROP n="XNOR_Logic/n12" Length=0.1 Width=0.8 }
+	{PIN XI0/net20=DRN net22=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM6=n12 {TYPE MOS} {PROP n="XNOR_Logic/n12" Length=0.1 Width=0.8 }
+	{PIN out=DRN a=GATE XI0/net20=SRC gnd!=BULK }}
+    {INST XI0/MM4=n12 {TYPE MOS} {PROP n="XNOR_Logic/n12" Length=0.1 Width=0.8 }
+	{PIN out=DRN net18=GATE XI0/net13=SRC gnd!=BULK }}
+    {INST XI4/MM0=n12 {TYPE MOS} {PROP n="CMOS_Working/n12" Length=0.1 Width=0.4 }
+	{PIN net22=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM1=p12 {TYPE MOS} {PROP n="CMOS_Working/p12" Length=0.1 Width=1.2 }
+	{PIN net22=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM0=n12 {TYPE MOS} {PROP n="CMOS_Working/n12" Length=0.1 Width=0.4 }
+	{PIN net18=DRN a=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM1=p12 {TYPE MOS} {PROP n="CMOS_Working/p12" Length=0.1 Width=1.2 }
+	{PIN net18=DRN a=GATE vdd!=SRC vdd!=BULK }}
+}
+}

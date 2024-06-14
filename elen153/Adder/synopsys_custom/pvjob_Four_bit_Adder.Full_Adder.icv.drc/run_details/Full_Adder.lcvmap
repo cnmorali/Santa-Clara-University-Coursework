@@ -1,0 +1,8 @@
+"Adder.AND.layout","Adder","AND","layout","0","0"
+"Adder.OR.layout","Adder","OR","layout","0","0"
+"Adder.XOR.layout","Adder","XOR","layout","0","0"
+"Full_Adder","Four_bit_Adder","Full_Adder","layout","0","0"
+"Half_Adder","Four_bit_Adder","Half_Adder","layout","0","0"
+"SAED_PDK_90.VIA12.layout","SAED_PDK_90","VIA12","layout","1","0"
+"SAED_PDK_90.nmos4t.layout","SAED_PDK_90","nmos4t","layout","2","0"
+"SAED_PDK_90.pmos4t.layout","SAED_PDK_90","pmos4t","layout","2","0"

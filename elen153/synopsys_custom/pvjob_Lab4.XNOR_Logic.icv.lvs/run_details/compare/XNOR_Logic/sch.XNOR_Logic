@@ -1,0 +1,23 @@
+{NETLIST XNOR_Logic
+{VERSION 2 0 0}
+
+{CELL XNOR_Logic
+    {PORT abar b vdd! gnd! out a bbar }
+    {INST MM9=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN out=DRN bbar=GATE net39=SRC vdd!=BULK }}
+    {INST MM7=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN net20=DRN bbar=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM6=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN out=DRN a=GATE net20=SRC gnd!=BULK }}
+    {INST MM4=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN out=DRN abar=GATE net13=SRC gnd!=BULK }}
+    {INST MM5=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=0.8 }
+	{PIN net13=DRN b=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM8=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN out=DRN a=GATE net39=SRC vdd!=BULK }}
+    {INST MM11=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN net39=DRN b=GATE vdd!=SRC vdd!=BULK }}
+    {INST MM10=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=2.4 }
+	{PIN net39=DRN abar=GATE vdd!=SRC vdd!=BULK }}
+}
+}

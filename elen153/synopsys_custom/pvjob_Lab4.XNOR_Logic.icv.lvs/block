@@ -1,0 +1,14 @@
+* XREF SPICE	Mon May  8 17:00:10 2023	XNOR_Logic
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=XNOR_Logic
+.subckt XNOR_Logic abar a bbar b vdd! gnd! out
+M_MM5 net13 b gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM7 net20 bbar gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM6 out a net20 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM4 out abar net13 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_MM11 net39 b vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM9 out bbar net39 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM8 out a net39 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_MM10 net39 abar vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+.ends XNOR_Logic

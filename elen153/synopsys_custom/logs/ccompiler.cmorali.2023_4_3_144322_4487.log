@@ -1,0 +1,30 @@
+[14:43:24.55] /r giWindowId 0
+[14:43:24.55] /r giWindowGeometry 600x300
+[14:43:24.55] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Apr  3 14:43:22 2023
+              /c Host: linux400505
+              /c Working directory: /DCNFS/users/student/cmorali/elen153
+              /c 
+[14:43:28.78] /r giShowFrameTabs true
+[14:43:28.78] /r giWindowId 1
+[14:43:28.78] /r giWindowGeometry 1040x800
+[14:43:51.65] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+351+106
+[14:44:11.62] /i exit
+[14:44:11.64] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:44:11.94] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]] -value 419x207+652+363
+[14:44:13.36] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 1]]
+[14:44:13.71] /o Shutdown time: Mon Apr  3 14:44:13 2023
+[14:44:13.71] /o Elapsed session real time: 0.81 minutes
+[14:44:13.71] /o Session terminated. Log is at /DCNFS/users/student/cmorali/elen153/synopsys_custom/logs/ccompiler.cmorali.2023_4_3_144322_4487.log

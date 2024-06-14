@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Jun  5 14:25:35 2023
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout">
+                <cellView library="Lab4" view="layout" cell="XNOR_Logic">
+                        <alias name="XNOR_Logic"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="Inverter" view="layout" cell="CMOS_Working">
+                        <alias name="CMOS_Working"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView library="analogLib" view="symbol" cell="cap">
+                        <alias name="cap"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" view="symbol" cell="vpat">
+                        <alias name="vpat"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" view="symbol" cell="vdc">
+                        <alias name="vdc"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="analogLib" view="symbol" cell="gnd">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView library="Inverter" view="symbol" cell="CMOS_Working">
+                        <alias name="CMOS_Working"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

@@ -1,0 +1,3 @@
+n12::n12 { }
+Full_Adder::Full_Adder { n12::n12 p12::p12 }
+p12::p12 { }

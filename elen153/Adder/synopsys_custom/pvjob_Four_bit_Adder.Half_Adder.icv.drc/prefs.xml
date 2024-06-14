@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref name="xtDRCICVRunsetOptions" value="{{ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK} {10000000}} {{ERROR_OPTIONS_DB_PATH} {&quot;.../pydb&quot;}} {{ERROR_OPTIONS_PCELL_LIST} {{  }}} {{ERROR_OPTIONS_CREATE_VUE_OUTPUT} {false}} {{ERROR_OPTIONS_REPORT_LAYOUT_ERRORS} {{ HIERARCHICAL }}} {{HIERARCHY_AUTO_OPTIONS_APPLICATION} {DRC}} {{HIERARCHY_AUTO_OPTIONS_FLOW} {NONE}} {{HIERARCHY_OPTIONS_DELETE} {{  }}} {{HIERARCHY_OPTIONS_EXPLODE} {{  }}} {{HIERARCHY_OPTIONS_EXPLODE_ALL} {{  }}} {{HIERARCHY_OPTIONS_FLATTEN} {{  }}} {{INCREMENTAL_OPTIONS_EXCLUDE_WINDOW} {{  }}} {{INCREMENTAL_OPTIONS_EXCLUDE_WINDOW_BY_CELLS} {{  }}} {{INCREMENTAL_OPTIONS_EXCLUDE_WINDOW_BY_CELLS_DELTA} {0}} {{INCREMENTAL_OPTIONS_SELECT_WINDOW_BY_CELLS} {{  }}} {{INCREMENTAL_OPTIONS_CLIP_WINDOW} {false}} {{INCREMENTAL_OPTIONS_WINDOW_ERROR_FILTER} {KEEP_ALL}} {{LAYOUT_GRID_OPTIONS_RESOLUTION} {0.005}} {{LAYOUT_GRID_OPTIONS_CHECK_45} {{ PATH, POLYGON }}} {{LAYOUT_GRID_OPTIONS_CHECK_90} {{ PATH }}} {{OPENACCESS_OPTIONS_VIEW} {&quot;layout&quot;}} {{OPENACCESS_OPTIONS_GENERATE_PIN_TEXT} {ALL}} {{OPENACCESS_OPTIONS_PIN_TEXT} {NET_NAME}} {{OPENACCESS_OPTIONS_MERGED_VIEW_LIST} {{}}} {{PROTOTYPE_OPTIONS_LARGE_CELLS} {true}} {{PROTOTYPE_OPTIONS_SYMMETRY} {FULL}} {{TEXT_OPTIONS_DELETE_TEXT} {{}}} {{TEXT_OPTIONS_REPLACE_TEXT} {{}}} {{TEXT_OPTIONS_REPLACE_TEXT_CHARACTERS} {{}}} {{TEXT_OPTIONS_USE_EXPLODED_TEXT} {{}}} {{TEXT_OPTIONS_EDTEXT} {{}}} {{TEXT_OPTIONS_REPLACE_NET_PREFIX} {&quot;&quot;}} {{TEXT_OPTIONS_LAYOUT_POWER} {{  }}} {{TEXT_OPTIONS_LAYOUT_GROUND} {{  }}}"/>
+                <pref name="xtDRCLayCell" value="Half_Adder"/>
+                <pref name="xtDRCLayLCV" value="Four_bit_Adder/Half_Adder/layout"/>
+                <pref name="xtDRCLayOasisFile" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Half_Adder.icv.drc/Half_Adder.custom_compiler.oas"/>
+                <pref name="xtDRCLayStreamFile" value="/DCNFS/users/student/cmorali/elen153/Adder/synopsys_custom/pvjob_Four_bit_Adder.Half_Adder.icv.drc/Half_Adder.custom_compiler.gds"/>
+                <pref name="xtDRCTool" value="IC Validator"/>
+        </preferences>
+</file-format>

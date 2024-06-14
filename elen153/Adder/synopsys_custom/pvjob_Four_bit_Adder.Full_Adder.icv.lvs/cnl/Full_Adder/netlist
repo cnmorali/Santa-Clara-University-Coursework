@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : Four_bit_Adder
+* Cell             : Full_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt Full_Adder ai bi ci ci_1 si
+*.PININFO ai:I bi:I ci:I ci_1:O si:O
+XI1 net23 net21 ai bi Half_Adder
+XI0 net24 si net21 ci Half_Adder
+XI3 net23 net24 ci_1 OR
+.ends Full_Adder
+

@@ -1,0 +1,8 @@
+XNOR_Logic
+	Cell Level Device Counts
+		NMOS[n12] = 4
+		PMOS[p12] = 4
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = XNOR_Logic  *******
+		NMOS[n12] = 4
+		PMOS[p12] = 4

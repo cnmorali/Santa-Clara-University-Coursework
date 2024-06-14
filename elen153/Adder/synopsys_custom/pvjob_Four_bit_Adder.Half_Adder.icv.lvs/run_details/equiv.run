@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"Half_Adder", "Half_Adder"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "functional": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp"
+    }
+}

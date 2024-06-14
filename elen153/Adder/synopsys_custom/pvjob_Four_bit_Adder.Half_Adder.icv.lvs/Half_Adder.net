@@ -1,0 +1,45 @@
+{NETLIST Half_Adder
+{VERSION 2 0 0}
+
+{CELL Half_Adder
+{PORT y x vdd! gnd! s c}
+{PROP top=4.295000 bottom=-1.045000 left=1.295000 right=8.855000}
+/*.CELL_INFO ORIGINAL_NAME Half_Adder */
+{INST M1=n12 {TYPE MOS} {COORD x=8.2650 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN N5=GATE gnd!=SRC c=DRN gnd!=BULK }}
+{INST M2=n12 {TYPE MOS} {COORD x=7.5250 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN x=GATE gnd!=SRC N10=DRN gnd!=BULK }}
+{INST M3=n12 {TYPE MOS} {COORD x=7.0550 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN y=GATE N5=SRC N10=DRN gnd!=BULK }}
+{INST M4=n12 {TYPE MOS} {COORD x=4.6650 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN N2=GATE gnd!=SRC s=DRN gnd!=BULK }}
+{INST M5=n12 {TYPE MOS} {COORD x=2.7300 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN x=GATE N2=SRC y=DRN gnd!=BULK }}
+{INST M6=n12 {TYPE MOS} {COORD x=3.4850 y=-0.4600}
+{PROP  nf=1 w=0.4 l=0.1}
+{PIN y=GATE N2=SRC x=DRN gnd!=BULK }}
+{INST M7=p12 {TYPE MOS} {COORD x=8.2650 y=1.3350}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN N5=GATE vdd!=SRC c=DRN vdd!=BULK }}
+{INST M8=p12 {TYPE MOS} {COORD x=7.5250 y=1.3350}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN x=GATE N5=SRC vdd!=DRN vdd!=BULK }}
+{INST M9=p12 {TYPE MOS} {COORD x=7.0550 y=1.3350}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN y=GATE N5=SRC vdd!=DRN vdd!=BULK }}
+{INST M10=p12 {TYPE MOS} {COORD x=2.7300 y=1.3350}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN x=GATE vdd!=SRC N11=DRN vdd!=BULK }}
+{INST M11=p12 {TYPE MOS} {COORD x=3.4850 y=1.3250}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN y=GATE N2=SRC N11=DRN vdd!=BULK }}
+{INST M12=p12 {TYPE MOS} {COORD x=4.6650 y=1.3350}
+{PROP  nf=1 w=1.2 l=0.1}
+{PIN N2=GATE vdd!=SRC s=DRN vdd!=BULK }}
+}
+}

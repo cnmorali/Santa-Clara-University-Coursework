@@ -1,0 +1,5 @@
+AND { }
+XOR { }
+Half_Adder { XOR AND }
+OR { }
+Full_Adder { OR Half_Adder }

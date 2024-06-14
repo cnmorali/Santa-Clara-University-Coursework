@@ -1,0 +1,52 @@
+{netlist 4_to_2.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell CMOS_Working
+{port Vin Vout}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN Vin=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin Vout=DRN Vin=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell XNOR_Logic
+{port a abar b bbar out}
+{inst MM4=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin out=DRN abar=GATE net13=SRC gnd!=BULK}}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net13=DRN b=GATE gnd!=SRC gnd!=BULK}}
+{inst MM6=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin out=DRN a=GATE net20=SRC gnd!=BULK}}
+{inst MM7=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.8}
+{pin net20=DRN bbar=GATE gnd!=SRC gnd!=BULK}}
+{inst MM11=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net39=DRN b=GATE vdd!=SRC vdd!=BULK}}
+{inst MM10=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin net39=DRN abar=GATE vdd!=SRC vdd!=BULK}}
+{inst MM9=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin out=DRN bbar=GATE net39=SRC vdd!=BULK}}
+{inst MM8=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=2.4}
+{pin out=DRN a=GATE net39=SRC vdd!=BULK}}
+}
+
+{cell 4_to_2
+{port a b out}
+{inst XI0=XNOR_Logic {TYPE CELL} 
+{pin a=a net18=abar b=b net22=bbar out=out}}
+{inst XI4=CMOS_Working {TYPE CELL} 
+{pin b=Vin net22=Vout}}
+{inst XI3=CMOS_Working {TYPE CELL} 
+{pin a=Vin net18=Vout}}
+}
+
+}

@@ -1,0 +1,7 @@
+Name	Group Size
+----------------------------
+hloe	2
+chloe	1
+trush	4
+tina	5
+ella	5

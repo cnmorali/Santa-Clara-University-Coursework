@@ -1,0 +1,93 @@
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_TimUmU'
+sx_first_wv
+sx_current_wv _6d5f2d0_void_p
+sx_set_data_directory {/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results}
+sx_get_signals {/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net6)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _6e93320_void_pp
+::CDSX::findIsSweepScalar _6e93320_void_pp 1
+sx_signal_attribute _6e93320_void_pp -xrange
+sx_first_wv
+sx_set_wv_userinfo _6d5f2d0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_next_wv _6d5f2d0_void_p
+sx_first_wv
+sx_next_wv _6d5f2d0_void_p
+sx_current_wv
+sx_first_panel _6d5f2d0_void_p
+sx_current_wv _6d5f2d0_void_p
+sx_clear_wv
+sx_set_wv_title _6d5f2d0_void_p tran
+sx_wv_name _6d5f2d0_void_p tran
+sx_get_last_panel _6d5f2d0_void_p
+sx_append_panel _6d5f2d0_void_p linear
+sx_current_wv _6d5f2d0_void_p
+sx_signal_add_mode overlap
+sx_current_panel _6eb99b0_void_p
+sx_set_wv_testbench _6d5f2d0_void_p 
+sx_set_wv_userinfo _6d5f2d0_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net6)}} {-color #FF0000 -label A} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _6eb99b0_void_p
+sx_set_panel_x_type _6eb99b0_void_p "linear"
+sx_set_panel_y_type _6eb99b0_void_p "linear"
+sx_get_signals {/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net8)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _6e933b0_void_pp
+::CDSX::findIsSweepScalar _6e933b0_void_pp 1
+sx_signal_attribute _6e933b0_void_pp -xrange
+sx_current_wv
+sx_first_panel _6d5f2d0_void_p
+sx_current_wv
+sx_get_last_panel _6d5f2d0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_get_x_full_range _6eb99b0_void_p
+sx_xaxis_attribute _6eb99b0_void_p -scale
+sx_get_last_panel _6d5f2d0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_next_panel _6eb99b0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_signal_add_mode overlap
+sx_current_panel _6eb99b0_void_p
+sx_set_wv_testbench _6d5f2d0_void_p 
+sx_set_wv_userinfo _6d5f2d0_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net8)}} {-color #CC00FF -label B} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _6eb99b0_void_p
+sx_set_panel_x_type _6eb99b0_void_p "linear"
+sx_set_panel_y_type _6eb99b0_void_p "linear"
+sx_get_signals {/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(out)}  -analysis {tran:tran} -openmode replace
+sx_get_num_sweeps _6e93440_void_pp
+::CDSX::findIsSweepScalar _6e93440_void_pp 1
+sx_signal_attribute _6e93440_void_pp -xrange
+sx_current_wv
+sx_first_panel _6d5f2d0_void_p
+sx_current_wv
+sx_get_last_panel _6d5f2d0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_get_x_full_range _6eb99b0_void_p
+sx_xaxis_attribute _6eb99b0_void_p -scale
+sx_get_last_panel _6d5f2d0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_next_panel _6eb99b0_void_p
+sx_get_panel_type _6eb99b0_void_p
+sx_signal_add_mode overlap
+sx_current_panel _6eb99b0_void_p
+sx_set_wv_testbench _6d5f2d0_void_p 
+sx_set_wv_userinfo _6d5f2d0_void_p {saeSession0::tran}
+sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Lab4,Test_bench,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(out)}} {-color #00FF66 -label v(/out)} -openmode replace -analysis tran:tran -noupdate -type volt
+sx_get_panel_type _6eb99b0_void_p
+sx_set_panel_x_type _6eb99b0_void_p "linear"
+sx_set_panel_y_type _6eb99b0_void_p "linear"
+sx_first_wv
+sx_first_panel _6d5f2d0_void_p
+sx_toggle_right_axis _6eb99b0_void_p I-Signal
+sx_next_panel _6eb99b0_void_p
+sx_next_wv _6d5f2d0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_next_panel _6eb99b0_void_p
+sx_first_line _6eb99b0_void_p
+sx_first_panel _6d5f2d0_void_p
+sx_first_wv
+sx_wv_name _6d5f2d0_void_p
+sx_next_wv _6d5f2d0_void_p

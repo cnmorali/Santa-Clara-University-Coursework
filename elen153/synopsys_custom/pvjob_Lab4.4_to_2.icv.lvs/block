@@ -1,0 +1,18 @@
+* XREF SPICE	Mon May 15 16:28:10 2023	4_to_2
+* icv_netlist Version RHEL64 Q-2019.12-SP1-1.5351723 2020/02/24
+
+* Top of hierarchy  cell=4_to_2
+.subckt 4_to_2 gnd! vdd! b a out
+M_XI0/MM4 out net18 XI0/net13 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM6 out a XI0/net20 gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM7 XI0/net20 net22 gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI0/MM5 XI0/net13 b gnd! gnd! n12  l=1e-07 w=8e-07 nf=1
+M_XI4/MM0 net22 b gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI3/MM0 net18 a gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI0/MM10 XI0/net39 net18 vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM8 out a XI0/net39 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM9 out net22 XI0/net39 vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI0/MM11 XI0/net39 b vdd! vdd! p12  l=1e-07 w=2.4e-06 nf=1
+M_XI4/MM1 net22 b vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI3/MM1 net18 a vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends 4_to_2

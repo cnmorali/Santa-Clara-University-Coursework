@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"XNOR_Logic", "XNOR_Logic"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Jun  5 17:03:24 2023
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file file="maskLayout" library="Four_bit_Adder" cell="Hierarchical_Four_bit_Adder" view="layout" mode="write"/>
+                <file file="schematic" library="Four_bit_Adder" cell="Hierarchical_Four_bit_Adder" view="schematic" mode="write"/>
+                <file file="maskLayout" library="Four_bit_Adder" cell="Full_Adder" view="layout" mode="write"/>
+                <file file="schematic" library="Four_bit_Adder" cell="Full_Adder" view="schematic" mode="write"/>
+                <file file="schematic" library="Four_bit_Adder" cell="Half_Adder" view="schematic" mode="write"/>
+        </recentFiles>
+</synopsysFile>

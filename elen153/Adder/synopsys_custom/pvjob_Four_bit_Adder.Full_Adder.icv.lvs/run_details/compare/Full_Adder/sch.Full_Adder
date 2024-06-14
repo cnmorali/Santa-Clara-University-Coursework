@@ -1,0 +1,67 @@
+{NETLIST Full_Adder
+{VERSION 2 0 0}
+
+{CELL Full_Adder
+    {PORT bi si vdd! gnd! ci ci_1 ai }
+    {INST XI0/XI0/MM0=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI0/XI0/net7=DRN net21=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM3=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI0/XI0/net24=DRN net21=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/XI1/MM4=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN net21=DRN XI1/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/XI1/MM2=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI1/XI1/net1=DRN ai=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM1=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN ci=DRN net21=GATE XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI3/MM2=p12 {TYPE MOS} {PROP n="OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI3/net16=DRN net24=GATE XI3/net23=SRC vdd!=BULK }}
+    {INST XI1/XI1/MM5=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN net21=DRN XI1/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/XI0/MM0=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI1/XI0/net7=DRN ai=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM2=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI0/XI1/net1=DRN net21=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM3=p12 {TYPE MOS} {PROP n="OR/p12" Length=0.1 Width=1.2 }
+	{PIN XI3/net23=DRN net23=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM0=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN net21=DRN ci=GATE XI0/XI1/net2=SRC gnd!=BULK }}
+    {INST XI3/MM0=n12 {TYPE MOS} {PROP n="OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI3/net16=DRN net23=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM5=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN si=DRN XI0/XI1/net2=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI1/MM4=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN si=DRN XI0/XI1/net2=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM5=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN net24=DRN XI0/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/XI0/MM4=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN net24=DRN XI0/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/XI0/MM1=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI1/XI0/net24=DRN bi=GATE XI1/XI0/net7=SRC gnd!=BULK }}
+    {INST XI1/XI1/MM3=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI1/XI1/net2=DRN bi=GATE XI1/XI1/net1=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM2=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI0/XI0/net24=DRN ci=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI1/MM3=p12 {TYPE MOS} {PROP n="Half_Adder/XOR/p12" Length=0.1 Width=1.2 }
+	{PIN XI0/XI1/net2=DRN ci=GATE XI0/XI1/net1=SRC vdd!=BULK }}
+    {INST XI1/XI1/MM1=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN bi=DRN ai=GATE XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI1/XI1/MM0=n12 {TYPE MOS} {PROP n="Half_Adder/XOR/n12" Length=0.1 Width=0.4 }
+	{PIN ai=DRN bi=GATE XI1/XI1/net2=SRC gnd!=BULK }}
+    {INST XI3/MM5=n12 {TYPE MOS} {PROP n="OR/n12" Length=0.1 Width=0.4 }
+	{PIN ci_1=DRN XI3/net16=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM4=p12 {TYPE MOS} {PROP n="OR/p12" Length=0.1 Width=1.2 }
+	{PIN ci_1=DRN XI3/net16=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI3/MM1=n12 {TYPE MOS} {PROP n="OR/n12" Length=0.1 Width=0.4 }
+	{PIN XI3/net16=DRN net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/XI0/MM3=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI1/XI0/net24=DRN ai=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/XI0/MM5=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN net23=DRN XI1/XI0/net24=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/XI0/MM4=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN net23=DRN XI1/XI0/net24=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/XI0/MM1=n12 {TYPE MOS} {PROP n="Half_Adder/AND/n12" Length=0.1 Width=0.4 }
+	{PIN XI0/XI0/net24=DRN ci=GATE XI0/XI0/net7=SRC gnd!=BULK }}
+    {INST XI1/XI0/MM2=p12 {TYPE MOS} {PROP n="Half_Adder/AND/p12" Length=0.1 Width=1.2 }
+	{PIN XI1/XI0/net24=DRN bi=GATE vdd!=SRC vdd!=BULK }}
+}
+}

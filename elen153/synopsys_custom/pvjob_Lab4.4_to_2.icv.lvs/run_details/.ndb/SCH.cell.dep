@@ -1,0 +1,3 @@
+CMOS_Working { }
+XNOR_Logic { }
+4_to_2 { CMOS_Working XNOR_Logic }

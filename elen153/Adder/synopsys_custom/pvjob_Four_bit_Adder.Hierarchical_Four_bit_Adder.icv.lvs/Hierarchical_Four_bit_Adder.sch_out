@@ -1,0 +1,102 @@
+{netlist Hierarchical_Four_bit_Adder.sch_out
+{version 2 1 0}
+{net_global vdd! gnd! VSS VDD VDD22 VDD12 VSS12 }
+{cell AND
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net24=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net24=DRN B=GATE net7=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net7=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net24=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net24=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net24=DRN B=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell OR
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net16=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net16=DRN B=GATE gnd!=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin net16=DRN A=GATE gnd!=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net16=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net23=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net16=DRN B=GATE net23=SRC vdd!=BULK}}
+}
+
+{cell XOR
+{port A B OUT}
+{inst MM5=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin OUT=DRN net2=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin B=DRN A=GATE net2=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin A=DRN B=GATE net2=SRC gnd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN net2=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net2=DRN B=GATE net1=SRC vdd!=BULK}}
+{inst MM2=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net1=DRN A=GATE vdd!=SRC vdd!=BULK}}
+}
+
+{cell Half_Adder
+{port c s x y}
+{inst XI0=AND {TYPE CELL} 
+{pin x=A y=B c=OUT}}
+{inst XI1=XOR {TYPE CELL} 
+{pin x=A y=B s=OUT}}
+}
+
+{cell Full_Adder
+{port ai bi ci ci_1 si}
+{inst XI1=Half_Adder {TYPE CELL} 
+{pin net23=c net21=s ai=x bi=y}}
+{inst XI0=Half_Adder {TYPE CELL} 
+{pin net24=c si=s net21=x ci=y}}
+{inst XI3=OR {TYPE CELL} 
+{pin net23=A net24=B ci_1=OUT}}
+}
+
+{cell Hierarchical_Four_bit_Adder
+{port a0 a1 a2 a3 b0 b1
+ b2 b3 cin cout s0 s1 s2
+ s3}
+{inst XI4=Full_Adder {TYPE CELL} 
+{pin a0=ai b0=bi cin=ci net70=ci_1 s0=si}}
+{inst XI8=Full_Adder {TYPE CELL} 
+{pin a1=ai b1=bi net70=ci net75=ci_1 s1=si}}
+{inst XI9=Full_Adder {TYPE CELL} 
+{pin a2=ai b2=bi net75=ci net80=ci_1 s2=si}}
+{inst XI10=Full_Adder {TYPE CELL} 
+{pin a3=ai b3=bi net80=ci cout=ci_1 s3=si}}
+}
+
+}

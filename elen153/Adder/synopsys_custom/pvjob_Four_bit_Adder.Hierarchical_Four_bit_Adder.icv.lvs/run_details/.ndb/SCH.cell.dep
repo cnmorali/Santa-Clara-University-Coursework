@@ -1,0 +1,6 @@
+AND { }
+XOR { }
+Half_Adder { AND XOR }
+Hierarchical_Four_bit_Adder { Full_Adder }
+OR { }
+Full_Adder { Half_Adder OR }

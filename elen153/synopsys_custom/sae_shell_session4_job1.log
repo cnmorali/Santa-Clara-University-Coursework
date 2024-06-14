@@ -1,0 +1,69 @@
+[15:42:18.56] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 10 15:42:14 2023
+              /c Host: linux400513
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:42:18.63] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:42:18.63] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:42:18.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:42:18.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:42:18.76] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:42:18.76] /o 	############################################
+[15:42:18.76] /o 	        Synopsys Generic 90nm iPDK          
+[15:42:18.76] /o 	--------------------------------------------
+[15:42:18.76] /o 	Release Date .............. : 11-May-2016    
+[15:42:18.76] /o 	============================================
+[15:42:18.76] /o 	        Recommended Tool Versions           
+[15:42:18.76] /o 	--------------------------------------------
+[15:42:18.76] /o 	Custom Designer ........... : J-2014.12-2    
+[15:42:18.76] /o 	IC Validator .............. : K-2015.12   
+[15:42:18.76] /o 	StarRC..................... : K-2015.12  
+[15:42:18.76] /o 	--------------------------------------------
+[15:42:18.76] /o 	############################################
+[15:42:18.76] /o 
+[15:42:18.78] /o SAED PDK 90: Loaded callbacks
+[15:42:18.79] /o SAED PDK 90: Loaded display resources
+[15:42:18.80] /i ::sa::_backgroundSaeShell::signalProcessReady 1681166533
+[15:42:18.80] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[15:47:19.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:47:19.96] /i ::sa::_backgroundSaeShell::parentRunning
+[15:47:19.96] /o 1681166839
+[15:47:44.49] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:47:44.78] /m Information: Start incremental database creation...
+[15:47:44.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:47:44.82] /o false
+[15:48:44.88] /i ::wf::viewerExited
+[15:49:51.79] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:49:52.50] /m Information: Start incremental database creation...
+[15:49:52.55] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:49:52.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.1 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:49:52.98] /o false
+[15:50:42.97] /i ::wf::viewerExited
+[15:52:36.06] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:52:36.83] /m Information: Start incremental database creation...
+[15:52:36.94] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:52:36.94] /o false
+[15:52:51.57] /i ::wf::viewerExited
+[15:53:13.99] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:53:14.71] /m Information: Start incremental database creation...
+[15:53:14.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:53:14.83] /o false
+[15:53:35.57] /i ::wf::viewerExited
+[15:55:44.99] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:55:45.65] /m Information: Start incremental database creation...
+[15:55:45.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Lab1,Voltage_Divider,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:55:45.77] /o false
+[15:56:42.47] /i ::wf::viewerExited
+[16:00:46.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:00:46.96] /i ::sa::_backgroundSaeShell::parentRunning
+[16:00:46.96] /o 1681167646
+[16:00:50.76] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[16:05:47.87] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:05:48.06] /i ::sa::_backgroundSaeShell::parentRunning
+[16:05:48.06] /o 1681167948
+[16:08:41.38] /i ::sa::_backgroundSaeShell::exit
+[16:08:41.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

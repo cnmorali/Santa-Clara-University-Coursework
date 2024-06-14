@@ -1,0 +1,407 @@
+### Custom WaveView ADV log file, revision P-2019.06-SP2 (build Nov 30, ) ###
+### created at 15:59:32 on Mon May 22 2023 (Linux AMD64) ###
+### Host Name: linux400513   User ID: cmorali   PID: 25546   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/opt/synopsys-2019/app/wv/P-2019.06-SP2/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 253
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 796 231
+wv_move_window {Custom WaveView} {} 1 56
+wv_select_window {Custom WaveView} 
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1914 828
+wv_move_window {Custom WaveView} {} 0 26
+#sx_first_wv#
+#sx_current_wv _5472ba0_void_p#
+#sx_set_data_directory {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results}#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net42)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae728_void_pp#
+#::CDSX::findIsSweepScalar _55ae728_void_pp 1#
+#sx_signal_attribute _55ae728_void_pp -xrange#
+#sx_first_wv#
+#sx_set_wv_userinfo _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_wv _5472ba0_void_p#
+#sx_first_wv#
+#sx_next_wv _5472ba0_void_p#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv _5472ba0_void_p#
+#sx_clear_wv#
+#sx_set_wv_title _5472ba0_void_p tran#
+#sx_wv_name _5472ba0_void_p tran#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_append_panel _5472ba0_void_p linear#
+#sx_current_wv _5472ba0_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net42)}} {-color #FF0000 -label a0} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net41)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae698_void_pp#
+#::CDSX::findIsSweepScalar _55ae698_void_pp 1#
+#sx_signal_attribute _55ae698_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net41)}} {-color #CC00FF -label a1} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net43)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae7b8_void_pp#
+#::CDSX::findIsSweepScalar _55ae7b8_void_pp 1#
+#sx_signal_attribute _55ae7b8_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net43)}} {-color #00FF66 -label a2} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net35)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae608_void_pp#
+#::CDSX::findIsSweepScalar _55ae608_void_pp 1#
+#sx_signal_attribute _55ae608_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net35)}} {-color #CCFF00 -label a3} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net33)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae578_void_pp#
+#::CDSX::findIsSweepScalar _55ae578_void_pp 1#
+#sx_signal_attribute _55ae578_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net33)}} {-color #0066FF -label b0} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net31)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae4e8_void_pp#
+#::CDSX::findIsSweepScalar _55ae4e8_void_pp 1#
+#sx_signal_attribute _55ae4e8_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net31)}} {-color #FF9900 -label b1} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net45)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae848_void_pp#
+#::CDSX::findIsSweepScalar _55ae848_void_pp 1#
+#sx_signal_attribute _55ae848_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net45)}} {-color #FF0099 -label b2} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net47)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae8d8_void_pp#
+#::CDSX::findIsSweepScalar _55ae8d8_void_pp 1#
+#sx_signal_attribute _55ae8d8_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net47)}} {-color #00FFFF -label b3} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net49)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae968_void_pp#
+#::CDSX::findIsSweepScalar _55ae968_void_pp 1#
+#sx_signal_attribute _55ae968_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net49)}} {-color #33FF00 -label cin} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net54)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55aea88_void_pp#
+#::CDSX::findIsSweepScalar _55aea88_void_pp 1#
+#sx_signal_attribute _55aea88_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net54)}} {-color #FF9999 -label s0} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net56)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55aeb18_void_pp#
+#::CDSX::findIsSweepScalar _55aeb18_void_pp 1#
+#sx_signal_attribute _55aeb18_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net56)}} {-color #EB99FF -label s1} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net58)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55aeba8_void_pp#
+#::CDSX::findIsSweepScalar _55aeba8_void_pp 1#
+#sx_signal_attribute _55aeba8_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net58)}} {-color #99FFC2 -label s2} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net60)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55aec38_void_pp#
+#::CDSX::findIsSweepScalar _55aec38_void_pp 1#
+#sx_signal_attribute _55aec38_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net60)}} {-color #EBFF99 -label s3} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_get_signals {/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml} {v(net51)}  -analysis {tran:tran} -openmode replace#
+#sx_get_num_sweeps _55ae9f8_void_pp#
+#::CDSX::findIsSweepScalar _55ae9f8_void_pp 1#
+#sx_signal_attribute _55ae9f8_void_pp -xrange#
+#sx_current_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_current_wv#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_get_x_full_range _55cc420_void_p#
+#sx_xaxis_attribute _55cc420_void_p -scale#
+#sx_get_last_panel _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_get_panel_type _55cc420_void_p#
+#sx_signal_add_mode overlap#
+#sx_current_panel _55cc420_void_p#
+#sx_set_wv_testbench _5472ba0_void_p #
+#sx_set_wv_userinfo _5472ba0_void_p {saeSession0::tran}#
+#sx_plot_signals {{/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml}} {{v(net51)}} {-color #3300FF -label cout} -openmode replace -analysis tran:tran -noupdate -type volt#
+#sx_get_panel_type _55cc420_void_p#
+#sx_set_panel_x_type _55cc420_void_p "linear"#
+#sx_set_panel_y_type _55cc420_void_p "linear"#
+#sx_first_wv#
+#sx_first_panel _5472ba0_void_p#
+#sx_toggle_right_axis _55cc420_void_p I-Signal#
+#sx_next_panel _55cc420_void_p#
+#sx_next_wv _5472ba0_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_next_panel _55cc420_void_p#
+#sx_first_line _55cc420_void_p#
+#sx_first_panel _5472ba0_void_p#
+#sx_first_wv#
+#sx_wv_name _5472ba0_void_p#
+#sx_next_wv _5472ba0_void_p#
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1 3.20723e-08 1.01178
+wv_select_waveview 1 {tran}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {tran}
+wv_select_menu_item {Custom WaveView} {tran:1} {PanelPopMenu.Ungroup} 
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL4:1 4.17843e-08 0.568182
+wv_drag_item_to WV1 312 219
+wv_select_waveview 1 {tran}
+wv_select_toolbar_item {Custom WaveView} {tran:1} {Vertical Cursor} 
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL3:1 3.38624e-08 0.0681818
+wv_move_wv_item WV1.PANEL3:1.CURSOR1 341 189
+wv_select_waveview 1 {tran}
+wv_select_panel WV1.PANEL10:1 2.51617e-07 0.610073
+wv_drag_item_to WV1 1267 540
+wv_move_wv_item WV1.PANEL10:1.CURSOR1 1267 540
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 868 478
+wv_move_window {Confirmation} {} 868 508
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/cmorali/.cx_hostport/.cx_hostport_linux400513_25546'.

@@ -1,0 +1,33 @@
+{NETLIST XNOR_Logic
+{VERSION 2 0 0}
+
+{CELL XNOR_Logic
+{PORT abar a bbar b vdd! gnd! out}
+{PROP top=5.860000 bottom=-0.580000 left=-0.745000 right=3.385000}
+/*.CELL_INFO ORIGINAL_NAME XNOR_Logic */
+{INST M1=n12 {TYPE MOS} {COORD x=2.6550 y=1.4350}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN b=GATE gnd!=SRC N10=DRN gnd!=BULK }}
+{INST M2=n12 {TYPE MOS} {COORD x=1.9550 y=1.4350}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN bbar=GATE gnd!=SRC N11=DRN gnd!=BULK }}
+{INST M3=n12 {TYPE MOS} {COORD x=1.2550 y=1.4350}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN a=GATE out=SRC N11=DRN gnd!=BULK }}
+{INST M4=n12 {TYPE MOS} {COORD x=0.5550 y=1.4350}
+{PROP  nf=1 w=0.8 l=0.1}
+{PIN abar=GATE out=SRC N10=DRN gnd!=BULK }}
+{INST M5=p12 {TYPE MOS} {COORD x=2.6550 y=3.7550}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN b=GATE vdd!=SRC N9=DRN vdd!=BULK }}
+{INST M6=p12 {TYPE MOS} {COORD x=1.9550 y=3.7550}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN bbar=GATE out=SRC N9=DRN vdd!=BULK }}
+{INST M7=p12 {TYPE MOS} {COORD x=1.2550 y=3.7550}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN a=GATE out=SRC N9=DRN vdd!=BULK }}
+{INST M8=p12 {TYPE MOS} {COORD x=0.5550 y=3.7550}
+{PROP  nf=1 w=2.4 l=0.1}
+{PIN abar=GATE vdd!=SRC N9=DRN vdd!=BULK }}
+}
+}

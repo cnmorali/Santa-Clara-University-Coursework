@@ -1,0 +1,103 @@
+[14:50:56.57] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon Apr 10 14:50:51 2023
+              /c Host: linux400513
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[14:50:56.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[14:50:56.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[14:50:56.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[14:50:56.64] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[14:50:56.80] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[14:50:56.81] /o 	############################################
+[14:50:56.81] /o 	        Synopsys Generic 90nm iPDK          
+[14:50:56.81] /o 	--------------------------------------------
+[14:50:56.81] /o 	Release Date .............. : 11-May-2016    
+[14:50:56.81] /o 	============================================
+[14:50:56.81] /o 	        Recommended Tool Versions           
+[14:50:56.81] /o 	--------------------------------------------
+[14:50:56.81] /o 	Custom Designer ........... : J-2014.12-2    
+[14:50:56.81] /o 	IC Validator .............. : K-2015.12   
+[14:50:56.81] /o 	StarRC..................... : K-2015.12  
+[14:50:56.81] /o 	--------------------------------------------
+[14:50:56.81] /o 	############################################
+[14:50:56.81] /o 
+[14:50:56.83] /o SAED PDK 90: Loaded callbacks
+[14:50:56.83] /o SAED PDK 90: Loaded display resources
+[14:50:56.84] /i ::sa::_backgroundSaeShell::signalProcessReady 1681163449
+[14:50:56.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[14:55:57.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:55:58.06] /i ::sa::_backgroundSaeShell::parentRunning
+[14:55:58.06] /o 1681163758
+[15:00:58.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:00:59.06] /i ::sa::_backgroundSaeShell::parentRunning
+[15:00:59.06] /o 1681164059
+[15:05:59.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:06:00.06] /i ::sa::_backgroundSaeShell::parentRunning
+[15:06:00.06] /o 1681164360
+[15:07:37.42] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:07:37.82] /m Information: Start incremental database creation...
+[15:07:37.93] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:07:37.93] /o false
+[15:08:48.08] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:08:48.37] /m Information: Start incremental database creation...
+[15:08:48.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:08:48.46] /o false
+[15:10:48.93] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:10:49.22] /m Information: Start incremental database creation...
+[15:10:49.32] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:10:49.32] /o false
+[15:14:49.25] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:14:49.53] /m Information: Start incremental database creation...
+[15:14:49.61] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:14:49.61] /o false
+[15:18:07.50] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:18:07.80] /m Information: Start incremental database creation...
+[15:18:07.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:18:07.88] /o false
+[15:23:08.97] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:23:09.16] /i ::sa::_backgroundSaeShell::parentRunning
+[15:23:09.16] /o 1681165389
+[15:28:09.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:28:10.16] /i ::sa::_backgroundSaeShell::parentRunning
+[15:28:10.16] /o 1681165690
+[15:29:37.27] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:29:37.59] /m Information: Start incremental database creation...
+[15:29:37.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:29:37.67] /o false
+[15:29:58.46] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:29:59.32] /m Information: Start incremental database creation...
+[15:29:59.40] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:30:00.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:30:00.20] /o false
+[15:30:12.58] /i ::wf::viewerExited
+[15:32:51.13] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:32:51.43] /m Information: Start incremental database creation...
+[15:32:51.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:32:51.51] /o false
+[15:33:30.54] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:33:31.37] /m Information: Start incremental database creation...
+[15:33:32.19] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:33:32.19] /o false
+[15:38:33.03] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:38:33.16] /i ::sa::_backgroundSaeShell::parentRunning
+[15:38:33.16] /o 1681166313
+[15:38:36.76] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[15:43:34.05] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:43:34.16] /i ::sa::_backgroundSaeShell::parentRunning
+[15:43:34.16] /o 1681166614
+[15:48:35.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:48:35.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:48:35.26] /o 1681166915
+[15:48:37.48] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:48:37.99] /m Information: Start incremental database creation...
+[15:48:38.03] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:48:38.54] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.0 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric databaseName /DCNFS/users/student/cmorali/simulation/Tutorial,NMOS,schematic/history_1/simulation/HSPICE_default/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:48:38.54] /o false
+[15:48:44.88] /i ::wf::viewerExited
+[15:50:42.97] /i ::wf::viewerExited
+[15:51:08.03] /i ::sa::_backgroundSaeShell::exit
+[15:51:08.03] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

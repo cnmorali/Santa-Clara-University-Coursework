@@ -1,0 +1,13 @@
+********************************************************************************
+* Library          : Four_bit_Adder
+* Cell             : Half_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt Half_Adder c s x y
+*.PININFO c:O s:O x:I y:I
+XI0 x y c AND
+XI1 x y s XOR
+.ends Half_Adder
+

@@ -1,0 +1,103 @@
+[14:16:11.97] /r giWindowId 0
+[14:16:11.97] /r giWindowGeometry 600x300
+[14:16:11.98] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version P-2019.06-SP1-7 for linux64 - Feb 13, 2020 
+              /c 
+              /c                     Copyright (c) 2004 - 2020 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 5329942 compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/linux64/platform/bin/custom_compiler
+              /c Execution time: Mon Jun  5 14:16:09 2023
+              /c Host: linux400513
+              /c Working directory: /DCNFS/users/student/cmorali/elen153
+              /c 
+[14:16:17.27] /r giShowFrameTabs true
+[14:16:17.28] /r giWindowId 1
+[14:16:17.28] /r giWindowGeometry 1040x800
+[14:22:26.46] /i gi::showContextMenu [gi::findChild dmLibraryManager -in [gi::getWindows 1]]
+[14:22:26.47] /i gi::hideContextMenu
+[14:22:26.47] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 1]
+[14:22:26.67] /i gi::showContextMenu [gi::findChild dmLibraryManager -in [gi::getWindows 1]]
+[14:22:26.67] /i gi::hideContextMenu
+[14:22:26.69] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 1]
+[14:22:28.06] /i gi::showContextMenu [gi::findChild dmLibraryManager -in [gi::getWindows 1]]
+[14:22:28.06] /i gi::hideContextMenu
+[14:22:28.10] /# gi::executeAction {giPostContextMenu} -in [gi::getWindows 1]
+[14:22:28.23] /i gi::showContextMenu [gi::findChild dmLibraryManager -in [gi::getWindows 1]]
+[14:22:28.23] /i gi::hideContextMenu
+[14:22:29.68] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:22:29.68] /# 
+[14:22:29.85] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:22:29.86] /# 
+[14:22:29.98] /i dm::showLibraryManager
+[14:22:29.98] /r giWindowId 2
+[14:22:29.99] /r giWindowGeometry 660x600+50+76
+[14:22:30.00] /o oa:0x20c503e0
+[14:22:31.79] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:31.80] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:33.14] /i gi::setCurrentIndex {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:22:33.20] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:22:36.10] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:36.12] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:36.75] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:36.77] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:22:36.79] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:40.92] /i gi::sortItems {libs} -column {Libraries} -order {descending} -in [gi::getWindows 2]
+[14:22:42.62] /i gi::setCurrentIndex {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:22:42.63] /i gi::setItemSelection {libs} -index {verilogaLib} -in [gi::getWindows 2]
+[14:22:43.91] /i gi::setCurrentIndex {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:22:43.92] /i gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:22:46.04] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:22:46.08] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:22:46.79] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:46.81] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:22:46.84] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:47.79] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:47.81] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:48.57] /i gi::setCurrentIndex {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:22:48.58] /i gi::setItemSelection {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:22:49.15] /i gi::setCurrentIndex {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:22:49.16] /i gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:22:49.83] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[14:22:50.45] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:50.45] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:22:51.10] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:51.12] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:22:51.14] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:22:53.04] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:22:53.05] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:22:53.79] /i gi::setCurrentIndex {libs} -index {Tutorial} -in [gi::getWindows 2]
+[14:22:53.81] /i gi::setItemSelection {libs} -index {Tutorial} -in [gi::getWindows 2]
+[14:22:58.42] /i gi::executeAction {menuPreShow} -in [gi::getWindows 2]
+[14:22:58.42] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[14:23:10.19] /i gi::setCurrentIndex {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:23:10.20] /i gi::setItemSelection {libs} -index {Inverter} -in [gi::getWindows 2]
+[14:23:10.72] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:23:10.73] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:23:14.62] /i gi::setCurrentIndex {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:23:14.63] /i gi::setItemSelection {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:23:15.53] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:23:15.55] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:23:15.58] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:23:20.05] /i gi::setCurrentIndex {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:23:20.06] /i gi::setItemSelection {libs} -index {Lab1} -in [gi::getWindows 2]
+[14:23:20.91] /i gi::setCurrentIndex {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:23:20.92] /i gi::setItemSelection {libs} -index {Lab2} -in [gi::getWindows 2]
+[14:23:22.57] /i gi::setCurrentIndex {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:23:22.59] /i gi::setItemSelection {cells} -index {4_to_2} -in [gi::getWindows 2]
+[14:23:22.61] /i gi::setItemSelection {libs} -index {Lab4} -in [gi::getWindows 2]
+[14:23:30.55] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+1055+93
+[14:25:29.95] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+465+139
+[14:25:31.25] /i exit
+[14:25:31.26] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:25:31.55] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]] -value 419x207+766+396
+[14:25:35.48] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog} -parent [gi::getWindows 2]]
+[14:25:35.82] /o Shutdown time: Mon Jun  5 14:25:35 2023
+[14:25:35.82] /o Elapsed session real time: 9.4 minutes
+[14:25:35.82] /o Session terminated. Log is at /DCNFS/users/student/cmorali/elen153/synopsys_custom/logs/ccompiler.cmorali.2023_6_5_141609_9031.log

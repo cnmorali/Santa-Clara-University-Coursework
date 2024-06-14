@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon May 22 16:04:15 2023-->
+<file-format version="1.0" name="stateCategory">
+ <object type="saOutputs" version="1" name="outputs">
+  <collection name="customPlotModes">
+   <object type="wfCustomPlotMode" name="customPlotModes">
+    <attribute value="### Custom WaveView session file (version P-2019.06-SP2 build Nov 30, ) ###&#xa;### saved at 16:03:48 on Mon May 22 2023 ###&#xa;wdf 0 &quot;/DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results/resultsMap.xml&quot; load=used &quot;title=tran:tran&quot; &quot;atype=tran:tran&quot; &#xa;scalar list&#xa;waveview_begin 1  stack  offset=0 name_b=81 mntr_b=151 name_width=66 mcur=2.5161669606114e-07 vc=cur-pnl &quot;name=tran&quot; &quot;userinfo=saeSession0::tran&quot; showtitle=true &quot;wvtitle=tran&quot; &#xa;  panel_begin linear pidx=0 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net42)&quot; attr=3:0:1:0 alias=&quot;a0&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=1 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net41)&quot; attr=128:1:1:0 user_color=204:0:255 alias=&quot;a1&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=2 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net43)&quot; attr=129:2:1:0 user_color=0:255:102 alias=&quot;a2&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=3 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net35)&quot; attr=130:3:1:0 user_color=204:255:0 alias=&quot;a3&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=4 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net33)&quot; attr=131:4:1:0 user_color=0:102:255 alias=&quot;b0&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=5 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net31)&quot; attr=132:5:1:0 user_color=255:153:0 alias=&quot;b1&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=6 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net45)&quot; attr=133:6:1:0 user_color=255:0:153 alias=&quot;b2&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=7 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net47)&quot; attr=2:7:1:0 alias=&quot;b3&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=8 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net49)&quot; attr=134:0:1:0 user_color=51:255:0 alias=&quot;cin&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=9 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net54)&quot; attr=135:0:1:0 user_color=255:153:153 alias=&quot;s0&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=10 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net56)&quot; attr=136:1:1:0 user_color=235:153:255 alias=&quot;s1&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=11 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net58)&quot; attr=137:2:1:0 user_color=153:255:194 alias=&quot;s2&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=12 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net60)&quot; attr=138:3:1:0 user_color=235:255:153 alias=&quot;s3&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;  panel_begin linear pidx=13 spath=name+file xlabel=&quot;TIME(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(net51)&quot; attr=139:4:1:0 user_color=51:0:255 alias=&quot;cout&quot; disp=show saeoutput=1 &#xa;  panel_end&#xa;waveview_end&#xa;browserClosed&#xa;" type="giString" name="config"/>
+    <attribute value="last" type="giString" name="name"/>
+   </object>
+  </collection>
+  <attribute value="1" type="giBoolean" name="importMeasures"/>
+  <attribute value="default" type="giString" name="outputSet"/>
+  <collection name="outputSets">
+   <object type="saOutputSet" version="1" name="outputSets">
+    <collection name="histogramCharts"/>
+    <attribute value="default" type="giString" name="name"/>
+    <collection name="outputs">
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net42)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="a0" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket0" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net41)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="a1" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket1" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net43)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="a2" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket2" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net35)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="a3" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket3" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net33)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="b0" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket4" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net31)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="b1" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket5" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net45)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="b2" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket6" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net47)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="b3" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket7" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net49)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="cin" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket8" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net54)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="s0" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket10" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net56)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="s1" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket11" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net58)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="s2" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket12" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net60)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="s3" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket13" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+     <object type="saOutput" version="1" name="outputs">
+      <attribute value="tran" type="giString" name="analyses"/>
+      <attribute value="" type="giString" name="description"/>
+      <attribute value="v(/net51)" type="giString" name="expr"/>
+      <attribute value=" None " type="giString" name="goalExpression"/>
+      <attribute value="0" type="giBoolean" name="hasSpec"/>
+      <attribute value="%e %c %s %m %t" type="giString" name="imageTitle"/>
+      <attribute value="cout" type="giString" name="name"/>
+      <attribute value="net" type="enOutputType" name="outputType"/>
+      <attribute value="1" type="giBoolean" name="plot"/>
+      <attribute value="auto" type="enGraphType" name="plotType"/>
+      <attribute value="6" type="giInt" name="precision"/>
+      <attribute value="plotpacket9" type="giString" name="probe"/>
+      <attribute value="1" type="giBoolean" name="resultsViewer"/>
+      <attribute value="1" type="giBoolean" name="save"/>
+      <attribute value="0" type="giBoolean" name="saveImage"/>
+      <collection name="specs">
+       <object type="saSpecification" version="1" name="specs">
+        <attribute value="" type="giString" name="analysis"/>
+        <attribute value="1" type="giBoolean" name="enabled"/>
+        <attribute value="Greater Than" type="enGoalType" name="extGoalType"/>
+        <attribute value="" type="giString" name="goal"/>
+        <attribute value="" type="giString" name="goalHigh"/>
+        <attribute value="" type="giString" name="goalLow"/>
+        <attribute value="Greater Than" type="enGoalType" name="goalType"/>
+        <attribute value="0%" type="giString" name="poor"/>
+        <attribute value="0%" type="giString" name="poorHigh"/>
+        <attribute value="0%" type="giString" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute value="" type="giString" name="suffix"/>
+      <attribute value="" type="giString" name="units"/>
+     </object>
+    </collection>
+    <collection name="qqCharts"/>
+    <attribute value="" type="giString" name="reductionString"/>
+    <collection name="scatterCharts"/>
+   </object>
+  </collection>
+  <attribute value="replace" type="giString" name="plotMode"/>
+ </object>
+</file-format>

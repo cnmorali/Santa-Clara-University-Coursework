@@ -1,0 +1,90 @@
+unique
+------
+unsorted  				sorted
+GreenEggsAndHam.txt    	     	803 total 67 dist.            	803 total 67 dist.
+				real	0m0.013s			real	0m0.015s
+				user	0m0.001s			user	0m0.002s
+				sys	0m0.004s			sys	0m0.002s
+Macbeth.txt			18644 total 3894 dist.   	18464 total 3894 dist.
+				real	0m0.123s			real	0m0.051s
+				user	0m0.110s			user	0m0.035s
+				sys	0m0.004s			sys	0m0.006s
+Genesis.txt                    36145 total 2727 dist.     	36145 total  2727 dist.
+				real	0m0.120s			real	0m0.046s
+				user	0m0.114s			user	0m0.033s
+				sys	0m0.003s			sys	0m0.002s
+HoundOfTheBaskervilles.txt     59508 total 5963 dist.    	59508 total 5963 dist.
+					real	0m0.267s			real	0m0.092s
+				user	0m0.257s			user	0m0.083s
+				sys	0m0.002s			sys	0m0.003s
+TheWarOfTheWorlds.txt          60469 total 7270 dist.     	60460 total 7270 dist.
+				real	0m0.334s			real	0m0.110s
+				user	0m0.322s			user	0m0.094s
+				sys	0m0.002s			sys	0m0.005s
+TreasureIsland.txt             68700 total 6496 dist.     	68700 total 6496 dist.
+				real	0m0.307s			real	0m0.104s
+				user	0m0.293s			user	0m0.091s
+				sys	0m0.007s			sys	0m0.004s
+TheSecretGarden.txt            81307 total 5323 dist.     	81307 total 5323 dist.
+				real	0m0.294s			real	0m0.098s
+				user	0m0.278s			user	0m0.080s
+				sys	0m0.006s			sys	0m0.007s
+TwentyThousandLeagues.txt      103769 total 9409 dist.     	103769 total 9409 dist.
+				real	0m0.591s			real	0m0.153s
+				user	0m0.580s			user	0m0.142s
+				sys	0m0.005s			sys	0m0.003s
+TheCountOfMonteCristo.txt      463946 total 17381 dist.     	463946 total 17381 dist.
+				real	0m2.656s			real	0m0.397s
+				user	0m2.640s			user	0m0.380s
+				sys	0m0.008s			sys	0m0.006s
+Bible.txt                      766425 total 14038 dist.     	766425 total 14038 dist.
+				real	0m2.868s			real	0m0.417s
+				user	0m2.856s			user	0m0.398s
+				sys	0m0.004s			sys	0m0.010s
+
+parity
+------
+unsorted  				sorted
+GreenEggsAndHam.txt    	     	803 total 39 odd            	803 total 39 odd
+				real	0m0.009s			real	0m0.010s
+				user	0m0.001s			user	0m0.001s
+				sys	0m0.002s			sys	0m0.004s
+Macbeth.txt				18644 total 2900 odd	   	18464 total 2900 odd
+				real	0m0.332s			real	0m0.104s
+				user	0m0.322s			user	0m0.093s
+				sys	0m0.003s			sys	0m0.002s
+Genesis.txt                    36145 total 1819 odd     	36145 total 1819 odd
+				real	0m0.381s			real	0m0.128s
+				user	0m0.362s			user	0m0.107s
+				sys	0m0.004s			sys	0m0.004s
+HoundOfTheBaskervilles.txt     59508 total 4066 odd	    	59508 total 4066 odd
+				real	0m1.388s			real	0m0.305s
+				user	0m1.373s			user	0m0.288s
+				sys	0m0.005s			sys	0m0.003s
+TheWarOfTheWorlds.txt          60469 total 4965 odd     	60460 total 4965 odd
+				real	0m1.729s			real	0m0.333s
+				user	0m1.715s			user	0m0.317s
+				sys	0m0.005s			sys	0m0.005s
+TreasureIsland.txt             68700 total 4500 odd     	68700 total 4500 odd
+				real	0m1.727s			real	0m0.348s
+				user	0m1.722s			user	0m0.323s
+				sys	0m0.003s			sys	0m0.007s
+TheSecretGarden.txt            81307 total 3531 odd     	81307 total 3531 odd
+				real	0m1.811s			real	0m0.347s
+				user	0m1.812s			user	0m0.335s
+				sys	0m0.002s			sys	0m0.003s
+TwentyThousandLeagues.txt      103769 total 6329 odd    	103769 total 6329 odd
+				real	0m3.953s			real	0m0.730s
+				user	0m3.929s			user	0m0.723s
+				sys	0m0.003s			sys	0m0.007s
+TheCountOfMonteCristo.txt      463946 total 11154 odd    	463946 total 11154 odd
+				real	0m34.399s			real	0m5.192s
+				user	0m334.375s			user	0m5.174s
+				sys	0m0.0015s			sys	0m0.006s
+Bible.txt                      766425 total 8571 odd     	766425 total 8751 odd
+				real	0m39.365s			real	0m6.334s
+				user	0m39.332s			user	0m6.298s
+				sys	0m0.024s			sys	0m0.004s
+
+
+

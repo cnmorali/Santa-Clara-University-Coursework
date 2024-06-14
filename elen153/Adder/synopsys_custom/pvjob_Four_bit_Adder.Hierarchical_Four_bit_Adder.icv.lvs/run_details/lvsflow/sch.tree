@@ -1,0 +1,39 @@
+Hierarchical_Four_bit_Adder Level=0 Count=1
+   Full_Adder Level=1 Count=4
+      OR Level=2 Count=4
+      Half_Adder Level=2 Count=8
+         XOR Level=3 Count=8
+         AND Level=3 Count=8
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = Hierarchical_Four_bit_Adder
+	Flat Placements      =	1
+
+CELL = Full_Adder
+	Flat Placements      =	4
+
+CELL = Half_Adder
+	Flat Placements      =	8
+
+CELL = XOR
+	Flat Placements      =	8
+
+CELL = OR
+	Flat Placements      =	4
+
+CELL = AND
+	Flat Placements      =	8
+
+TOP CELL = Hierarchical_Four_bit_Adder
+	Ports                =	16
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[n12] = 60
+	PMOS[p12] = 60

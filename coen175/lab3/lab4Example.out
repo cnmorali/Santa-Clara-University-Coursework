@@ -1,0 +1,16 @@
+open scope
+Declaring variable: a, int *
+open scope
+Declaring function: g, int()
+close scope
+open scope
+Declaring variable: b, double
+Declaring variable: c, int
+Defining function: f, char()
+Declaring variable: y, char[10]
+open scope
+Declaring variable: q, int **
+close scope
+Checking variable: y
+close scope
+close scope

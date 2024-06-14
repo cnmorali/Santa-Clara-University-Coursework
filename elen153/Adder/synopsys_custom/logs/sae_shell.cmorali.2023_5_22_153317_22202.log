@@ -1,0 +1,63 @@
+[15:33:22.89] /o sae_shell Version Custom Compiler P-2019.06-SP1-7
+              /c Build  (OPT) compiled on Thu Feb 13 14:05:50 2020 for RHEL64 6.6
+              /c Execution time: Mon May 22 15:33:17 2023
+              /c Host: linux400513
+              /c 
+              /c Copyright © 2004-2020 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:33:22.98] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/basic
+[15:33:22.98] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/snpsDeviceLib
+[15:33:22.98] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/analogLib
+[15:33:22.98] /o /DCNFS/applications/synopsys/2019/app/customcompiler/P-2019.06-SP1-7/auxx/samples/parasitics
+[15:33:23.15] /o /DCNFS/applications/synopsys/2019/app/SAED/SAED_PDK90nm/SAED_PDK_90
+[15:33:23.16] /o 	############################################
+[15:33:23.16] /o 	        Synopsys Generic 90nm iPDK          
+[15:33:23.16] /o 	--------------------------------------------
+[15:33:23.16] /o 	Release Date .............. : 11-May-2016    
+[15:33:23.16] /o 	============================================
+[15:33:23.16] /o 	        Recommended Tool Versions           
+[15:33:23.16] /o 	--------------------------------------------
+[15:33:23.16] /o 	Custom Designer ........... : J-2014.12-2    
+[15:33:23.16] /o 	IC Validator .............. : K-2015.12   
+[15:33:23.16] /o 	StarRC..................... : K-2015.12  
+[15:33:23.16] /o 	--------------------------------------------
+[15:33:23.16] /o 	############################################
+[15:33:23.16] /o 
+[15:33:23.19] /o SAED PDK 90: Loaded callbacks
+[15:33:23.19] /o SAED PDK 90: Loaded display resources
+[15:33:23.20] /i ::sa::_backgroundSaeShell::signalProcessReady 1684794796
+[15:33:23.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[15:38:24.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:38:24.26] /i ::sa::_backgroundSaeShell::parentRunning
+[15:38:24.26] /o 1684795104
+[15:40:31.26] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:40:31.76] /m Information: Start incremental database creation...
+[15:40:31.82] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:40:31.82] /o false
+[15:42:17.54] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:42:18.87] /m Information: Start incremental database creation...
+[15:42:18.95] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:42:19.13] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:42:19.13] /o false
+[15:47:20.25] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:47:20.36] /i ::sa::_backgroundSaeShell::parentRunning
+[15:47:20.36] /o 1684795640
+[15:47:23.76] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[15:52:21.27] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:52:21.36] /i ::sa::_backgroundSaeShell::parentRunning
+[15:52:21.36] /o 1684795941
+[15:56:41.11] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:56:41.84] /m Information: Start incremental database creation...
+[15:56:41.90] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:56:42.08] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:56:42.08] /o false
+[15:57:57.58] /i ::wf::viewerExited
+[15:59:31.61] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:59:33.17] /m Information: Start incremental database creation...
+[15:59:33.46] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 1.8 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName HSPICE_default resultsDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal databaseName /DCNFS/users/student/cmorali/simulation/Four_bit_Adder,Test_bench_adder,schematic/history_1/simulation/HSPICE_default/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+[15:59:33.46] /o false
+[16:03:48.78] /i ::wf::viewerExited
+[16:04:16.04] /i ::sa::_backgroundSaeShell::exit
+[16:04:16.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting

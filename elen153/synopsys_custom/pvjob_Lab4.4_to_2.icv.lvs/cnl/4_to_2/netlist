@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : Lab4
+* Cell             : 4_to_2
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt 4_to_2 a b out
+*.PININFO a:I b:I out:O
+XI0 a net18 b net22 out XNOR_Logic
+XI4 b net22 CMOS_Working
+XI3 a net18 CMOS_Working
+.ends 4_to_2
+

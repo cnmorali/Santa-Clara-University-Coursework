@@ -1,0 +1,37 @@
+<module name="vsl: Four_bit_Adder Hierarchical_Four_bit_Adder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I10" dst="XI10"/>
+<mapping src="I9" dst="XI9"/>
+<mapping src="I8" dst="XI8"/>
+<mapping src="I4" dst="XI4"/>
+</forward>
+<reverse>
+<mapping src="XI10" dst="I10"/>
+<mapping src="XI8" dst="I8"/>
+<mapping src="XI9" dst="I9"/>
+<mapping src="XI4" dst="I4"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3"/>
+<mapping src="&lt;termOrder>" dst="a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3"/>
+</forward>
+<reverse>
+<mapping src="a0 a1 a2 a3 b0 b1 b2 b3 cin cout s0 s1 s2 s3" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="Full_Adder">
+<instance name="I10"/>
+<instance name="I4"/>
+<instance name="I8"/>
+<instance name="I9"/>
+</instance_header>
+</master_instances>
+</module>
